@@ -3,7 +3,7 @@ define('DB_HOST', 'localhost');
 define('DB_PORT', '3306');
 define('DB_NAME', 'recipe_app');
 define('DB_USER', 'root');
-define('DB_PASS', 'caca');
+define('DB_PASS', '');
 
 try {
     $pdo = new PDO(
